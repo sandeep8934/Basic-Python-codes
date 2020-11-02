@@ -1,3 +1,5 @@
+Create respository > Stagging > Commit
+
 1. git status		#to check the status
 2. git init		#to make repository
 3. git add -A		#to add file in stagging area
