@@ -1,0 +1,27 @@
+a = "welcome to the calculator developed by Sandeep Singh."
+print(a.capitalize())
+
+op = input("First select the operator which you want to use: ")
+num1 = int(input("Enter the First number: "))
+num2 = int(input("Enter the Second number: "))
+
+if op == "*" and num1 == 45 and num2 == 3:
+    print("149")
+elif op == "+" and num1 == 56 and num2 == 9:
+    print("63")
+elif op == "/" and num1 == 56 and num2 == 6:
+    print("4")
+elif op == "*":
+    multi = num1 * num2
+    print(multi)
+elif op == "+":
+    add = num1 + num2
+    print(add)
+elif op == "/":
+    div = num1 / num2
+    print(div)
+elif op == "-":
+    sub = num1 - num2
+    print(sub)
+
+print("*** Thanks For Using This Faulty Calculator *** \n*** Developed by Sandeep Singh ***")
