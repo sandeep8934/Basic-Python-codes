@@ -1,3 +1,10 @@
+"""    (Faulty Calculator)
+
+Suppose you are a invigilator in an exam, Create a program to design a faulty calculator which will correctly
+solve all the problems except the following ones:
+45 * 3 = 149, 56 + 9 = 63, 56/6 = 4
+Your program should take operator from the user and return the result.
+"""
 a = "welcome to the calculator developed by Sandeep Singh."
 print(a.capitalize())
 
@@ -25,3 +32,16 @@ elif op == "-":
     print(sub)
 
 print("*** Thanks For Using This Faulty Calculator *** \n*** Developed by Sandeep Singh ***")
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,6 @@
+"""
+Create a program as a user ID for any site..
+"""
 print("*** Welcome to sandeepsingh.com ***")
 username = "sandeep8934"
 password = "sandysandy"

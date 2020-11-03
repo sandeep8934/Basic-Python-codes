@@ -1,0 +1,25 @@
+# Create a program that takes age as a input from the user and if the user is 18+ they can drive and if not can not.
+# Age limit from 10-100
+
+sandeep = 25
+rehansh = 10
+kittu = 15
+sunita = 32
+vandana = 27
+
+a = int(input('Enter your Age from 10 upto 100: '))
+if a >=10:
+    print()
+
+    if a > 18:
+        print('Congrats. You can Drive.')
+    elif a == 18:
+        print('We will think you can drive or not.')
+    if a < 18:
+        print("Sorry. You can't drive.")
+else:
+    print('Error..Please select age from 10 upto 100.')
+
+
+
+
